@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/fondopantalla3"
+
+    tools:context=".MainActivity4">
+
+
+    <ImageView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconflecha"
+        android:id="@+id/imgflecha"/>
+
+    <TextView
+        android:id="@+id/verde"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgflecha"
+        android:layout_marginTop="130dp"
+        android:background="#42937F"
+        android:padding="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@+id/verde"
+        android:background="#594A4F5C"
+        android:padding="17dp"
+        android:text="00:08 / 03:34"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:id="@+id/reloj"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/record"
+        android:id="@+id/record"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_marginBottom="120dp"
+        android:text="Re-record"
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pause"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="120dp"
+        android:text="Next Step"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        />
+
+
+
+</RelativeLayout>

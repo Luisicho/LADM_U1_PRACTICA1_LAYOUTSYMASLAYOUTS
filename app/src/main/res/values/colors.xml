@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    //Activity 1
+    <color name="fondotransparente1">#B2FF903B</color>
+    <color name="fondotransparente2">#B23B9AFF</color>
+    <color name="fondotransparente3">#B296FF3B</color>
+    <color name="fondotransparente4">#B2803BFF</color>
+    <color name="fondotransparente5">#B23BFFC7</color>
+    <color name="fondotransparente6">#B3FF3232</color>
+    //Activity 2
+    <color name="textogris">#777777</color>
+    //Activity 4
+    <color name="rojoabajo">#de5d69</color>
+    <color name="textomuygris">#A3777777</color>
+</resources>

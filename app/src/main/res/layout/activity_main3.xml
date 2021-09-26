@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity3">
+
+    <TableRow>
+        <ImageView
+            android:layout_gravity="right"
+            android:src="@drawable/menu1"
+            android:paddingRight="5dp"/>
+    </TableRow>
+    <TableRow android:paddingTop="30dp">
+        <ImageView
+            android:src="@drawable/yo"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Eren Jeager"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#AD673AB7"
+            android:paddingTop="5dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="6582005356"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textSize="17sp"/>
+    </TableRow>
+
+    <TableRow android:paddingTop="20dp">
+        <ImageView
+            android:src="@drawable/menu"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:text="Enter Your Password"
+            android:textAlignment="center"/>
+    </TableRow>
+
+    <TableRow>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="1" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="2" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="3" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="4" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="5" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="6" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="7" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="8" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:text="9" />
+
+            <TextView
+                style="@style/tecladoNum"
+                android:layout_column="1"
+                android:text="0" />
+
+            <ImageView
+                style="@style/tecladoNum"
+                android:src="@drawable/retroceso" />
+
+        </GridLayout>
+    </TableRow>
+
+</TableLayout>

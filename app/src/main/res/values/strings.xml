@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LADM_U1_PRACTICA1</string>
+    <array name="opciones">
+        <item>Pantalla 1</item>
+        <item>Pantalla 2</item>
+        <item>Pantalla 3</item>
+        <item>Pantalla 4</item>
+        <item>Pantalla 5</item>
+        <item>Pantalla 6</item>
+        <item>Pantalla 7</item>
+        <item>Pantalla 8</item>
+        <item>Salir</item>
+    </array>
+</resources>
